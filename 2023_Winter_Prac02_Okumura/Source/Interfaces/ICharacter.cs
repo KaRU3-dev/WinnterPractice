@@ -6,7 +6,15 @@ namespace Interface.Entity.Characters {
         double hp { get; set; }
         int unit { get; set; }
 
-        void GenerateSubmarine();
-        void Attack(int target);
+        // Submarine map interface (index, name, hp, alive)
+        struct SubmarineMap {
+            int index;
+            string name;
+            double hp;
+            bool alive;
+        }
+
+        void GenerateSubmarine(int mapSize);
+        int Attack();
     }
 }

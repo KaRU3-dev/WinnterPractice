@@ -11,8 +11,6 @@ namespace Interface.entity.Vehicles {
             Sonar,
             Torpedo
         }
-
-        void GenerateSubmarine();
-        void Attack(int target);
+        void Hit();
     }
 }
