@@ -7,7 +7,7 @@
 
 ### How to run this program
 ```bash
-# Clone this repogitory
+# Clone this repository
 git clone https://github.com/KaRU3-dev/WinnterPractice.git
 
 # Open cloned folder (I use vscode)
@@ -19,3 +19,7 @@ git checkout <Practice01/Practice02/Practice03/Practice04>
 # In branch, run selected code
 dotnet run
 ```
+
+### Repository
+![repository](./materials/repos.png)
+
